@@ -11,8 +11,10 @@ class Post
 
     def author=(author)
       @author = author
-      @author.posts << self 
-  end
+      @author.posts << self
+    end
+
+    def 
 
   def author_name
     if @author == nil
