@@ -9,7 +9,8 @@ class Post
     @title = title
     @post = []
 
-    
+    def author=(author)
+      
   end
 
   def author_name
