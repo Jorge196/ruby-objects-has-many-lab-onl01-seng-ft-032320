@@ -11,7 +11,7 @@ class Post
 
     def author=(author)
       @author = author
-      
+      author.posts 
   end
 
   def author_name
