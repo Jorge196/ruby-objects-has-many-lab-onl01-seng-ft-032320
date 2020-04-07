@@ -14,7 +14,8 @@ class Post
       @author.posts << self
     end
 
-    def 
+    def self.all
+       
 
   def author_name
     if @author == nil
