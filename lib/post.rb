@@ -4,11 +4,11 @@ class Post
   attr_reader :author
 
   @@all = []
-  
 
   def initialize(title)
     @title = title
     @post = []
+    
   end
 
   def author_name
