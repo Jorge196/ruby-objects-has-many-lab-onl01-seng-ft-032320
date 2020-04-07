@@ -10,7 +10,8 @@ class Post
     @post = []
 
     def author=(author)
-      @
+      @author = author
+      
   end
 
   def author_name
